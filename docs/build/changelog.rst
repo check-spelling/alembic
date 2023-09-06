@@ -3190,7 +3190,7 @@ Changelog
       :tags: bug, batch
       :tickets: 333
 
-      Fixed bug in batch mode where a table that had pre-existing indexes
+      Fixed bug in batch mode where a table that had preexisting indexes
       would create the same index on the new table with the same name,
       which on SQLite produces a naming conflict as index names are in a
       global namespace on that backend.   Batch mode now defers the production
