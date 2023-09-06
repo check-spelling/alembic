@@ -1847,7 +1847,7 @@ Changelog
 
         Added new ``--purge`` flag to the ``alembic stamp`` command, which will
         unconditionally erase the version table before stamping anything.  This is
-        useful for development where non-existent version identifiers might be left
+        useful for development where nonexistent version identifiers might be left
         within the table.  Additionally, ``alembic.stamp`` now supports a list of
         revision identifiers, which are intended to allow setting up multiple heads
         at once.  Overall handling of version identifiers within the
