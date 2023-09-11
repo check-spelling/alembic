@@ -140,7 +140,7 @@ Database Configuration
 Step one, the **database chosen for tests must be entirely empty**.  A lot
 of what SQLAlchemy and Alembic test is creating and dropping lots of tables
 as well as running database introspection to see what is there.  If there
-are pre-existing tables or other objects in the target database already,
+are preexisting tables or other objects in the target database already,
 these will get in the way.   A failed test run can also be followed by
 a run that includes the "--dropfirst" option, which will try to drop
 all existing tables in the target database.

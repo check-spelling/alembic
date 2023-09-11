@@ -18,7 +18,7 @@ class AlterColumnTest(AutogenFixtureTest, TestBase):
 
     @testing.combinations((True,), (False,))
     @config.requirements.comments
-    def test_all_existings_filled(self, pk):
+    def test_all_existing_filled(self, pk):
         m1 = MetaData()
         m2 = MetaData()
 
@@ -30,7 +30,7 @@ class AlterColumnTest(AutogenFixtureTest, TestBase):
 
     @testing.combinations((True,), (False,))
     @config.requirements.comments
-    def test_all_existings_filled_in_notnull(self, pk):
+    def test_all_existing_filled_in_notnull(self, pk):
         m1 = MetaData()
         m2 = MetaData()
 
@@ -45,7 +45,7 @@ class AlterColumnTest(AutogenFixtureTest, TestBase):
 
     @testing.combinations((True,), (False,))
     @config.requirements.comments
-    def test_all_existings_filled_in_comment(self, pk):
+    def test_all_existing_filled_in_comment(self, pk):
         m1 = MetaData()
         m2 = MetaData()
 
@@ -57,7 +57,7 @@ class AlterColumnTest(AutogenFixtureTest, TestBase):
 
     @testing.combinations((True,), (False,))
     @config.requirements.comments
-    def test_all_existings_filled_in_server_default(self, pk):
+    def test_all_existing_filled_in_server_default(self, pk):
         m1 = MetaData()
         m2 = MetaData()
 
